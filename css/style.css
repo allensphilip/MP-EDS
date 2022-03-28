@@ -1,0 +1,57 @@
+body{
+    background-color: #08042c;
+} 
+
+input[type=submit] {
+    width: max-content;
+    background-color: #07fafa;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type=submit]:hover {
+    background-color: hsl(123, 40%, 45%);
+}
+
+div {
+    border-radius: 5px;
+    background-color: #36318d8e;
+    padding: 10px;
+    margin-top: 10px;
+    width: relative;
+    position: relative;
+    margin: 150px 0;
+}
+label[for=head]{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+label[for=field]{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input{
+    display: block;
+    height: 50px;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 5px;
+    padding: 12 20px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #000000;
+}
+ 
+.outer{
+
+}
